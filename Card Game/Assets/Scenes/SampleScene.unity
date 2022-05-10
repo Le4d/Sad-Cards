@@ -186,7 +186,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deck: []
-  cardSlots: []
+  cardSlots:
+  - {fileID: 1308134911}
+  - {fileID: 1441093925}
+  - {fileID: 541427403}
+  - {fileID: 1621387682}
+  - {fileID: 1320625070}
+  - {fileID: 530404107}
   availableCardSlots: 
 --- !u!1 &400791812
 GameObject:
