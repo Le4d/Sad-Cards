@@ -14,6 +14,7 @@ public class Card : MonoBehaviour
             PlayCard();
         }
     }
+
     void PlayCard()
     {
         stats.playerHappiness += card.happiness;
