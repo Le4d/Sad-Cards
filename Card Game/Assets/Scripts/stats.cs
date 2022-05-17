@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class stats : MonoBehaviour
 {
-    public int playerSleep;
+    public static int playerSleep;
     public static int playerMotivation;
-    public int playerFood;
-    public int playerHappiness;
-    public int playerMoney;
-   
+    public static int playerFood;
+    public static int playerHappiness;
+    public static int playerMoney;
+    public static int playerStress;
+
 }
