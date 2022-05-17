@@ -10,5 +10,6 @@ public class stats : MonoBehaviour
     public static int playerHappiness;
     public static int playerMoney;
     public static int playerStress;
+    public static int day;
 
 }
