@@ -6,13 +6,6 @@ using UnityEngine.UIElements;
 public class Card : MonoBehaviour
 {
     [SerializeField] CreateCards card;
-<<<<<<< Updated upstream
-    void Update()
-    {
-        
-    }
-=======
->>>>>>> Stashed changes
     private void OnMouseDown()
     {
         if(card.motivation <= stats.playerMotivation)
@@ -20,6 +13,7 @@ public class Card : MonoBehaviour
             PlayCard();
         }
     }
+
     void PlayCard()
     {
         stats.playerHappiness += card.happiness;
