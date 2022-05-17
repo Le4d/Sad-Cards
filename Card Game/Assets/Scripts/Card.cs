@@ -6,13 +6,6 @@ using UnityEngine.UIElements;
 public class Card : MonoBehaviour
 {
     [SerializeField] CreateCards card;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         
