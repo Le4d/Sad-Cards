@@ -16,7 +16,7 @@ MonoBehaviour:
   happiness: 0
   stress: 0
   food: 0
-  rest: 0
+  rest: 2
   passive: 0
-  cardName: 
+  cardName: Sleep
   image: {fileID: 0}

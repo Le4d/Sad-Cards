@@ -19,7 +19,13 @@ public class Card : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if(card.motivation <= )
+        if(card.motivation <= stats.playerMotivation)
+        {
+            PlayCard();
+        }
     }
+    void PlayCard()
+    {
 
+    }
 }
