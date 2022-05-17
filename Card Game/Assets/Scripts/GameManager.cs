@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
             {
                 if (availableCardSlots[i] == true)
                 {
+                    Instantiate(randCard.gameObject, cardSlots[i].position, Quaternion.identity);
                     randCard.gameObject.SetActive(true);
                     randCard.transform.position = cardSlots[i].position;
                     availableCardSlots[i] = false;
